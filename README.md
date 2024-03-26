@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "ofidan/docker-instance/aws"
+    source = "ofidan/docker-instance-2024/aws"
     key_name = "clarusway"
 }
 ```
